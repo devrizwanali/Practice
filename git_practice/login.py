@@ -23,7 +23,7 @@ class Testingsearch(unittest.TestCase):
         self.driver.find_element_by_xpath("/html/body/div/div[1]/div/form/input[2]").click()
 
     def test_google(self):
-        self.driver.find_element_by_id("id_q").send_keys("shirts")
+        self.driver.find_element_by_id("id_q").send_keys("jeans")
 
 
 
